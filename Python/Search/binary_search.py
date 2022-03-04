@@ -1,7 +1,7 @@
-def binary_search(input, target):
+def binarySearch(input, target, high=None):
 	low = 0
-	mid = 0
-	high = len(input)-1
+	if high is None:
+		high = len(input)-1
 
 	while low<= high:
 		mid = int((low+high)/2)
@@ -15,7 +15,7 @@ def binary_search(input, target):
 	return -1
 
 # Recursive version: Not efficient
-# def binary_search_recursive(input, low, high,  target):
+# def binarySearchRecursive(input, low, high,  target):
 # 	if low <= high:
 # 		mid = int((low+high)/2)
 

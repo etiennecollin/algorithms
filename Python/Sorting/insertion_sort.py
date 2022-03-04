@@ -9,3 +9,5 @@ def insertion_sort(array):
 		
 		array[currentPosition] = currentValue
 	return array
+
+# Recursive
