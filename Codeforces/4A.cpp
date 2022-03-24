@@ -3,12 +3,15 @@ using namespace std;
 
 int w;
 
-int main(){
+int main()
+{
 	std::cin >> w;
-	if (w>=1 && w<=100 && w % 2 == 0 && w != 2)
+	if (w >= 1 && w <= 100 && w % 2 == 0 && w != 2)
 	{
 		std::cout << "YES\n";
-	} else{
+	}
+	else
+	{
 		std::cout << "NO\n";
-	}	
+	}
 }
